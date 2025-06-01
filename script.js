@@ -46,3 +46,7 @@ window.addEventListener('scroll', function () {
         header.classList.remove('scrolled');
     }
 });
+window.addEventListener('load', function () {
+    window.scrollTo(0, 0);
+  });
+  
